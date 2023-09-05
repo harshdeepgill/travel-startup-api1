@@ -1,5 +1,5 @@
 {
-  "categories": ["Camping", "Hiking", "Bike/carRent", "Homestay", "Trekking", "Wild Life", "Safari", "Climbing"],
+  "categories": [{"category":"Camping"}, {"category":"Hiking"}, {"category":"Bike/carRent"}, {"category":"Homestay"}, {"category":"Trekking"}, {"category":"Wild Life"}, {"category":"Safari"}, {"category":"Climbing"}],
   "locations": ["Yellowstone National Park", "Appalachian Trail", "Boulder, Colorado", "Aspen, Colorado", "Yosemite National Park", "Himalayas, Nepal", "Maasai Mara, Kenya", "Serengeti National Park, Tanzania", "Swiss Alps, Switzerland", "Machu Picchu, Peru", "Santorini, Greece", "Kruger National Park, South Africa", "Dolomites, Italy", "Amazon Rainforest, Brazil"],
   "providers": [
     {

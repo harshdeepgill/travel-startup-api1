@@ -366,6 +366,206 @@
       "totalStars": 4.5,
       "id": 14,
       "location": "Amazon Rainforest, Brazil"
+    },
+    {
+      "id": 15,
+      "name": "Mountain Explorers",
+      "category": "Trekking",
+      "image": "trekking.jpg",
+      "age": 4,
+      "reviews": [
+        {
+          "nameOfReviewer": "Sophie Adams",
+          "category": "Trekking",
+          "stars": 5,
+          "textOfReview": "Amazing trekking experience!",
+          "ServiceName": "Mountain Summit Trek"
+        },
+        {
+          "nameOfReviewer": "Benjamin Turner",
+          "category": "Trekking",
+          "stars": 4,
+          "textOfReview": "Breathtaking views during the trek!",
+          "ServiceName": "Forest Trail Trek"
+        }
+      ],
+      "totalStars": 4.5,
+      "location": "Himalayas, Nepal"
+    },
+    {
+      "id": 16,
+      "name": "Jungle Safari Adventures",
+      "category": "Safari",
+      "image": "safari.jpg",
+      "age": 5,
+      "reviews": [
+        {
+          "nameOfReviewer": "Olivia White",
+          "category": "Safari",
+          "stars": 5,
+          "textOfReview": "Incredible wildlife sightings!",
+          "ServiceName": "Jungle Safari Expedition"
+        },
+        {
+          "nameOfReviewer": "William Davis",
+          "category": "Safari",
+          "stars": 4,
+          "textOfReview": "Fantastic safari experience!",
+          "ServiceName": "Savannah Adventure"
+        }
+      ],
+      "totalStars": 4.5,
+      "location": "Maasai Mara, Kenya"
+    },
+    {
+      "id": 17,
+      "name": "Alpine Adventures",
+      "category": "Climbing",
+      "image": "climbing.jpg",
+      "age": 6,
+      "reviews": [
+        {
+          "nameOfReviewer": "Liam Clark",
+          "category": "Climbing",
+          "stars": 5,
+          "textOfReview": "Thrilling mountain climbs!",
+          "ServiceName": "Alpine Peaks Climbing"
+        },
+        {
+          "nameOfReviewer": "Mia Turner",
+          "category": "Climbing",
+          "stars": 4,
+          "textOfReview": "Great climbing instructors!",
+          "ServiceName": "Rock Face Climbing"
+        }
+      ],
+      "totalStars": 4.5,
+      "location": "Swiss Alps, Switzerland"
+    },
+    {
+      "id": 18,
+      "name": "Beachside Homestays",
+      "category": "Homestay",
+      "image": "homestay.jpg",
+      "age": 2,
+      "reviews": [
+        {
+          "nameOfReviewer": "Ella Martin",
+          "category": "Homestay",
+          "stars": 5,
+          "textOfReview": "Relaxing beachfront homestay!",
+          "ServiceName": "Ocean View Cottage"
+        },
+        {
+          "nameOfReviewer": "Lucas Harris",
+          "category": "Homestay",
+          "stars": 4,
+          "textOfReview": "Cozy and peaceful homestay!",
+          "ServiceName": "Beach Bungalow"
+        }
+      ],
+      "totalStars": 4.5,
+      "location": "Santorini, Greece"
+    },
+    {
+      "id": 19,
+      "name": "Rocky Mountain Bikers",
+      "category": "Bike/carRent",
+      "image": "bike_rental.jpg",
+      "age": 3,
+      "reviews": [
+        {
+          "nameOfReviewer": "Sarah Turner",
+          "category": "Bike Rental",
+          "stars": 5,
+          "textOfReview": "Great bike rental service!",
+          "ServiceName": "Mountain Bike Rental"
+        },
+        {
+          "nameOfReviewer": "Michael Adams",
+          "category": "Car Rental",
+          "stars": 4,
+          "textOfReview": "Efficient car rental experience!",
+          "ServiceName": "SUV Rental"
+        }
+      ],
+      "totalStars": 4.5,
+      "location": "Boulder, Colorado"
+    },
+    {
+      "id": 20,
+      "name": "Wildlife Expeditions",
+      "category": "Wild Life",
+      "image": "wildlife.jpg",
+      "age": 7,
+      "reviews": [
+        {
+          "nameOfReviewer": "Aiden Davis",
+          "category": "Wildlife",
+          "stars": 5,
+          "textOfReview": "Unforgettable wildlife encounters!",
+          "ServiceName": "Savannah Safari"
+        },
+        {
+          "nameOfReviewer": "Zoe Turner",
+          "category": "Wildlife",
+          "stars": 4,
+          "textOfReview": "Amazing animal sightings!",
+          "ServiceName": "Jungle Expedition"
+        }
+      ],
+      "totalStars": 4.5,
+      "location": "Amazon Rainforest, Brazil"
+    },
+    {
+      "id": 21,
+      "name": "Tropical Treks",
+      "category": "Trekking",
+      "image": "trekking.jpg",
+      "age": 4,
+      "reviews": [
+        {
+          "nameOfReviewer": "James Wilson",
+          "category": "Trekking",
+          "stars": 5,
+          "textOfReview": "Exhilarating tropical treks!",
+          "ServiceName": "Rainforest Trek"
+        },
+        {
+          "nameOfReviewer": "Emma Parker",
+          "category": "Trekking",
+          "stars": 4,
+          "textOfReview": "Beautiful trekking routes!",
+          "ServiceName": "Jungle Trail Trek"
+        }
+      ],
+      "totalStars": 4.5,
+      "location": "Santorini, Greece"
+    },
+    {
+      "id": 22,
+      "name": "African Safaris",
+      "category": "Safari",
+      "image": "safari.jpg",
+      "age": 5,
+      "reviews": [
+        {
+          "nameOfReviewer": "Mason Adams",
+          "category": "Safari",
+          "stars": 5,
+          "textOfReview": "African safari adventure at its best!",
+          "ServiceName": "Savannah Safari"
+        },
+        {
+          "nameOfReviewer": "Aria Turner",
+          "category": "Safari",
+          "stars": 4,
+          "textOfReview": "Exciting wildlife encounters!",
+          "ServiceName": "Desert Safari"
+        }
+      ],
+      "totalStars": 4.5,
+      "location": "Kruger National Park, South Africa"
     }
   ]
 }

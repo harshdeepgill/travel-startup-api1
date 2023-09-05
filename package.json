@@ -1,0 +1,24 @@
+{
+  "name": "travel-startup-api1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshdeepgill/travel-startup-api1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshdeepgill/travel-startup-api1/issues"
+  },
+  "homepage": "https://github.com/harshdeepgill/travel-startup-api1#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}

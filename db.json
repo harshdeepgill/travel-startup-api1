@@ -1,4 +1,6 @@
 {
+  "categories": ["Camping", "Hiking", "Bike/carRent", "Homestay", "Trekking", "Wild Life", "Safari", "Climbing"],
+  "locations": ["Yellowstone National Park", "Appalachian Trail", "Boulder, Colorado", "Aspen, Colorado", "Yosemite National Park", "Himalayas, Nepal", "Maasai Mara, Kenya", "Serengeti National Park, Tanzania", "Swiss Alps, Switzerland", "Machu Picchu, Peru", "Santorini, Greece", "Kruger National Park, South Africa", "Dolomites, Italy", "Amazon Rainforest, Brazil"],
   "providers": [
     {
       "name": "Adventure Explorers",

@@ -1,64 +1,355 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Gertrudis Tatterton",
-        "age": 18,
-        "email": "gtatterton0@ehow.com"
-      },
-      {
-        "id": 2,
-        "name": "Gail Newbatt",
-        "age": 53,
-        "email": "gnewbatt1@un.org"
-      },
-      {
-        "id": 3,
-        "name": "Walliw Wilstead",
-        "age": 49,
-        "email": "wwilstead2@tripadvisor.com"
-      },
-      {
-        "id": 4,
-        "name": "Abran Proback",
-        "age": 29,
-        "email": "aproback3@theglobeandmail.com"
-      },
-      {
-        "id": 5,
-        "name": "Roda Chappelow",
-        "age": 31,
-        "email": "rchappelow4@oaic.gov.au"
-      },
-      {
-        "id": 6,
-        "name": "Karney Wylie",
-        "age": 22,
-        "email": "kwylie5@miitbeian.gov.cn"
-      },
-      {
-        "id": 7,
-        "name": "Cammi Pimbley",
-        "age": 63,
-        "email": "cpimbley6@nyu.edu"
-      },
-      {
-        "id": 8,
-        "name": "Gavra Manning",
-        "age": 43,
-        "email": "gmanning7@lycos.com"
-      },
-      {
-        "id": 9,
-        "name": "Zachary Seward",
-        "age": 45,
-        "email": "zseward8@oracle.com"
-      },
-      {
-        "id": 10,
-        "name": "Chucho Norssister",
-        "age": 20,
-        "email": "cnorssister9@mayoclinic.com"
-      }
-    ]
-  }
+  "providers": [
+    {
+      "name": "Adventure Explorers",
+      "category": "Camping",
+      "image": "camping.jpg",
+      "age": 5,
+      "reviews": [
+        {
+          "nameOfReviewer": "John Doe",
+          "category": "Camping",
+          "stars": 4,
+          "textOfReview": "Great camping experience!",
+          "ServiceName": "Mountain View Campground"
+        },
+        {
+          "nameOfReviewer": "Alice Smith",
+          "category": "Camping",
+          "stars": 5,
+          "textOfReview": "Awesome camping trip!",
+          "ServiceName": "Riverside Campsite"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": true,
+      "location": "Yellowstone National Park"
+    },
+    {
+      "name": "Wilderness Trekkers",
+      "category": "Hiking",
+      "image": "hiking.jpg",
+      "age": 8,
+      "reviews": [
+        {
+          "nameOfReviewer": "Emily Brown",
+          "category": "Hiking",
+          "stars": 5,
+          "textOfReview": "Incredible hiking adventure!",
+          "ServiceName": "Mountain Trail Hike"
+        },
+        {
+          "nameOfReviewer": "David Wilson",
+          "category": "Hiking",
+          "stars": 4,
+          "textOfReview": "Amazing views during the hike!",
+          "ServiceName": "Forest Exploration Hike"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": false,
+      "location": "Appalachian Trail"
+    },
+    {
+      "name": "Wheels & More",
+      "category": "Bike/carRent",
+      "image": "bike_rental.jpg",
+      "age": 3,
+      "reviews": [
+        {
+          "nameOfReviewer": "Sarah Turner",
+          "category": "Bike Rental",
+          "stars": 5,
+          "textOfReview": "Easy bike rental process!",
+          "ServiceName": "Mountain Bike Rental"
+        },
+        {
+          "nameOfReviewer": "Michael Harris",
+          "category": "Car Rental",
+          "stars": 4,
+          "textOfReview": "Smooth car rental experience!",
+          "ServiceName": "SUV Rental"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": true,
+      "location": "Boulder, Colorado"
+    },
+    {
+      "name": "Cozy Homestays",
+      "category": "Homestay",
+      "image": "homestay.jpg",
+      "age": 2,
+      "reviews": [
+        {
+          "nameOfReviewer": "Sophia Anderson",
+          "category": "Homestay",
+          "stars": 5,
+          "textOfReview": "Wonderful homestay experience!",
+          "ServiceName": "Hillside Retreat"
+        },
+        {
+          "nameOfReviewer": "Daniel Clark",
+          "category": "Homestay",
+          "stars": 4,
+          "textOfReview": "Comfortable and cozy homestay!",
+          "ServiceName": "Riverside Cottage"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": false,
+      "location": "Aspen, Colorado"
+    },
+    {
+      "name": "Summit Seekers",
+      "category": "Climbing",
+      "image": "climbing.jpg",
+      "age": 6,
+      "reviews": [
+        {
+          "nameOfReviewer": "Olivia White",
+          "category": "Climbing",
+          "stars": 5,
+          "textOfReview": "Challenging climbs with breathtaking views!",
+          "ServiceName": "Mountain Summit Climbing"
+        },
+        {
+          "nameOfReviewer": "Matthew Turner",
+          "category": "Climbing",
+          "stars": 4,
+          "textOfReview": "Great climbing instructors!",
+          "ServiceName": "Rock Face Climbing"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": true,
+      "location": "Yosemite National Park"
+    },
+    {
+      "name": "Trekking Adventures",
+      "category": "Trekking",
+      "image": "trekking.jpg",
+      "age": 4,
+      "reviews": [
+        {
+          "nameOfReviewer": "Ava Harris",
+          "category": "Trekking",
+          "stars": 5,
+          "textOfReview": "Unforgettable trekking experience!",
+          "ServiceName": "Mountain Expedition Trek"
+        },
+        {
+          "nameOfReviewer": "William Martin",
+          "category": "Trekking",
+          "stars": 4,
+          "textOfReview": "Scenic trekking routes!",
+          "ServiceName": "Forest Trail Trek"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": false,
+      "location": "Himalayas, Nepal"
+    },
+    {
+      "name": "Wildlife Wonders",
+      "category": "Wild Life",
+      "image": "wildlife.jpg",
+      "age": 7,
+      "reviews": [
+        {
+          "nameOfReviewer": "Liam Davis",
+          "category": "Wildlife",
+          "stars": 5,
+          "textOfReview": "Amazing wildlife safari!",
+          "ServiceName": "Savannah Safari"
+        },
+        {
+          "nameOfReviewer": "Mia Wilson",
+          "category": "Wildlife",
+          "stars": 4,
+          "textOfReview": "Incredible animal sightings!",
+          "ServiceName": "Jungle Expedition"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": true,
+      "location": "Maasai Mara, Kenya"
+    },
+    {
+      "name": "Safari Adventures",
+      "category": "Safari",
+      "image": "safari.jpg",
+      "age": 5,
+      "reviews": [
+        {
+          "nameOfReviewer": "Ethan Carter",
+          "category": "Safari",
+          "stars": 5,
+          "textOfReview": "African safari of a lifetime!",
+          "ServiceName": "Savannah Safari"
+        },
+        {
+          "nameOfReviewer": "Emma Parker",
+          "category": "Safari",
+          "stars": 4,
+          "textOfReview": "Fantastic safari experience!",
+          "ServiceName": "Desert Safari"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": false,
+      "location": "Serengeti National Park, Tanzania"
+    },
+    {
+      "name": "Mountain Climbers",
+      "category": "Climbing",
+      "image": "mountain_climbing.jpg",
+      "age": 4,
+      "reviews": [
+        {
+          "nameOfReviewer": "Luna Adams",
+          "category": "Climbing",
+          "stars": 5,
+          "textOfReview": "Epic mountain climbing adventure!",
+          "ServiceName": "Alpine Peaks Climbing"
+        },
+        {
+          "nameOfReviewer": "Noah Turner",
+          "category": "Climbing",
+          "stars": 4,
+          "textOfReview": "Awesome climbing guides!",
+          "ServiceName": "Rock Face Climbing"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": true,
+      "location": "Swiss Alps, Switzerland"
+    },
+    {
+      "name": "Exotic Treks",
+      "category": "Trekking",
+      "image": "trekking.jpg",
+      "age": 3,
+      "reviews": [
+        {
+          "nameOfReviewer": "Sophie White",
+          "category": "Trekking",
+          "stars": 5,
+          "textOfReview": "Exhilarating trekking experience!",
+          "ServiceName": "Rainforest Expedition Trek"
+        },
+        {
+          "nameOfReviewer": "Benjamin Clark",
+          "category": "Trekking",
+          "stars": 4,
+          "textOfReview": "Unspoiled natural beauty during the trek!",
+          "ServiceName": "Mountain Trail Trek"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": false,
+      "location": "Machu Picchu, Peru"
+    },
+    {
+      "name": "Serenity Stays",
+      "category": "Homestay",
+      "image": "homestay.jpg",
+      "age": 2,
+      "reviews": [
+        {
+          "nameOfReviewer": "Ella Davis",
+          "category": "Homestay",
+          "stars": 5,
+          "textOfReview": "Relaxing homestay experience!",
+          "ServiceName": "Lakeview Cottage"
+        },
+        {
+          "nameOfReviewer": "Lucas Smith",
+          "category": "Homestay",
+          "stars": 4,
+          "textOfReview": "Cozy and welcoming homestay!",
+          "ServiceName": "Mountain Retreat"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": true,
+      "location": "Santorini, Greece"
+    },
+    {
+      "name": "Safari Seekers",
+      "category": "Safari",
+      "image": "safari.jpg",
+      "age": 5,
+      "reviews": [
+        {
+          "nameOfReviewer": "Aiden Turner",
+          "category": "Safari",
+          "stars": 5,
+          "textOfReview": "African safari adventure at its best!",
+          "ServiceName": "Savannah Expedition"
+        },
+        {
+          "nameOfReviewer": "Zoe Harris",
+          "category": "Safari",
+          "stars": 4,
+          "textOfReview": "Unforgettable wildlife encounters!",
+          "ServiceName": "Desert Safari"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": false,
+      "location": "Kruger National Park, South Africa"
+    },
+    {
+      "name": "Mountain Mavericks",
+      "category": "Climbing",
+      "image": "mountain_climbing.jpg",
+      "age": 4,
+      "reviews": [
+        {
+          "nameOfReviewer": "Mason Adams",
+          "category": "Climbing",
+          "stars": 5,
+          "textOfReview": "Challenging climbs and stunning vistas!",
+          "ServiceName": "Alpine Peaks Climbing"
+        },
+        {
+          "nameOfReviewer": "Aria Parker",
+          "category": "Climbing",
+          "stars": 4,
+          "textOfReview": "Thrilling rock climbing adventure!",
+          "ServiceName": "Rock Face Climbing"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": true,
+      "location": "Dolomites, Italy"
+    },
+    {
+      "name": "Jungle Explorers",
+      "category": "Wild Life",
+      "image": "wildlife.jpg",
+      "age": 7,
+      "reviews": [
+        {
+          "nameOfReviewer": "James Wilson",
+          "category": "Wildlife",
+          "stars": 5,
+          "textOfReview": "Unbelievable wildlife safari experience!",
+          "ServiceName": "Amazon Rainforest Expedition"
+        },
+        {
+          "nameOfReviewer": "Emma Turner",
+          "category": "Wildlife",
+          "stars": 4,
+          "textOfReview": "Exciting animal encounters!",
+          "ServiceName": "Savannah Safari"
+        }
+      ],
+      "totalStars": 4.5,
+      "isFeatured": true,
+      "location": "Amazon Rainforest, Brazil"
+    }
+  ]
+}
+

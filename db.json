@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "name": "Harshdeep Gill",
+      "email": "er.harshdeepgill@gmail.com",
+      "password": "1234"
+    }
+  ],
   "categories": [{"category":"Camping"}, {"category":"Hiking"}, {"category":"Bike/carRent"}, {"category":"Homestay"}, {"category":"Trekking"}, {"category":"Wild Life"}, {"category":"Safari"}, {"category":"Climbing"}],
   "locations":[
     { "location": "Yellowstone National Park" },
